@@ -1,0 +1,120 @@
+.container-fluid {
+    padding: 0 !important;
+    width: 100%;
+}
+
+.commonHeader .navbar-custom {
+    background-color: rgba(12, 26, 50, 255);
+    color: rgba(139, 143, 160, 255);
+}
+
+.commonHeader .navbar-custom a {
+    color: rgba(139, 143, 160, 255);
+}
+
+.commonHeader .nav-link {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.commonHeader .nav-link:focus,
+.commonHeader .nav-link:hover {
+    color: #fff !important;
+}
+
+.commonHeader .form {
+    position: relative;
+    width: 25rem;
+}
+
+.commonHeader .form svg {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    color: #9ca3af;
+    font-size: 25px;
+}
+
+.commonHeader .form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.commonHeader .form-input {
+    height: 50px;
+    text-indent: 33px;
+    border-radius: 10px;
+    color: #9ca3af !important;
+    background-color: #1F2F4B !important;
+    border: unset !important;
+    margin: 8px;
+}
+
+.commonHeader .form-control:focus {
+    color: #9ca3af !important;
+    background-color: #1F2F4B !important;
+    border-color: unset !important;
+    outline: 0 !important;
+    box-shadow: unset !important;
+}
+
+.commonHeader .btn-primary {
+    color: #269F73 !important;
+    background-color: #269f738c !important;
+    border-color: unset !important;
+    border: unset !important;
+    height: 45px !important;
+    margin: 10px 14px 0 22px !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 0 0.25rem rgb(204, 204, 204, 0.137) !important;
+}
+
+.commonHeader .btn-primary:focus {
+    color: #269F73;
+    background-color: #269f738c !important;
+    border-color: unset !important;
+    box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 0.137) !important;
+}
+
+.commonHeader .form-select {
+    width: unset !important;
+    color: #fff !important;
+    height: 45px !important;
+    margin: 10px 0 !important;
+    box-shadow: 0 0 0 0.25rem rgb(204, 204, 204, 0.137) !important;
+    background-color: #4A4730 !important;
+    border-color: unset !important;
+    border: unset !important;
+    font-weight: bold !important;
+}
+
+.commonHeader .form-select:after {
+    color: #fff !important;
+}
+
+.commonHeader .dropdown-menu[data-bs-popper] {
+    top: 92% !important;
+    left: 22px !important;
+    min-width: 6rem !important;
+}
+
+.commonHeader .dropdown-menu {
+    min-width: 8rem !important;
+    color: #fff !important;
+    background-color: #4A4730 !important;
+}
+
+.commonHeader .btn-primary.dropdown-btn {
+    width: 6rem;
+    color: #fff !important;
+    background-color: #4A4730 !important;
+    border-color: unset !important;
+    border: unset !important;
+    height: 45px !important;
+    margin: 10px 14px 0 22px !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 0 0.25rem rgb(204, 204, 204, 0.137) !important;
+}

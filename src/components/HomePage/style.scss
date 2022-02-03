@@ -1,0 +1,68 @@
+.sidebar {
+    padding: 24px 10px 10px 10px !important;
+}
+
+.bannerImg {
+    margin: 18px auto;
+}
+
+.bannerContent {
+    width: 78%;
+    margin: 0 auto;
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 50px 0 30px 0;
+    }
+    p {
+        text-align: left;
+        padding: 0 28px;
+        margin: 0 auto;
+        font-size: 14px;
+        letter-spacing: .8px;
+        line-height: 30px;
+    }
+}
+
+.bodyArea {
+    background-color: #f2f4f3;
+    padding: 2.5em 0 5em 0;
+    color: black;
+    h6 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+        margin-bottom: 0px;
+        color: #ffa500;
+    }
+    .pt-heading {
+        margin: 6em 0 4em 0;
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+    }
+    .bodyshodow {
+        box-shadow: 5px 5px 10px #888888;
+    }
+    .body_circleicon {
+        border: 2px dotted #000;
+        padding: 18px;
+    }
+}
+
+.coinList {
+    background-color: #132027;
+    padding: 12px;
+    .coin {
+        margin-right: 16px;
+        font-size: 13px;
+        .coin-item {
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin: 0 5px 0 5px;
+        }
+    }
+}
