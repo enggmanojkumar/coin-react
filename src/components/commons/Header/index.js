@@ -63,8 +63,9 @@ function CommonHeader() {
 					</ul>
 					<form className="d-flex" onSubmit={searchCoin}>
 						<div className="dropdown">
+
 							<button className="btn btn-primary dropdown-btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								{selectedCoin} <BsChevronExpand />
+							<img className='img-fluid' src="/assets/images/bsc_logo.png" style={{maxWidth: "15%", marginRight:"6px"}} />	{selectedCoin} <BsChevronExpand />
 							</button>
 							<div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 								<a className="dropdown-item" onClick={() => updateSelect("BSC")}>BSC</a>
@@ -75,7 +76,7 @@ function CommonHeader() {
 							<input
 								className="form-control form-input"
 								type="search"
-								placeholder="Search"
+								placeholder="Enter Conttract Address"
 								aria-label="Search"
 								value={searchInput}
 								onChange={handleChange}

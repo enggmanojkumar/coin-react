@@ -32,7 +32,7 @@
     top: 22px;
     right: 20px;
     color: #9ca3af;
-    font-size: 25px;
+    font-size: 19px;
 }
 
 .commonHeader .form span {
@@ -62,7 +62,7 @@
 }
 
 .commonHeader .btn-primary {
-    color: #269F73 !important;
+    color: #30c991 !important;
     background-color: #269f738c !important;
     border-color: unset !important;
     border: unset !important;
@@ -77,6 +77,10 @@
     background-color: #269f738c !important;
     border-color: unset !important;
     box-shadow: 0 0 0 0.25rem rgba(204, 204, 204, 0.137) !important;
+}
+.commonHeader .btn-primary:hover {
+    color: #97f1d0 !important;
+   
 }
 
 .commonHeader .form-select {
@@ -108,13 +112,21 @@
 }
 
 .commonHeader .btn-primary.dropdown-btn {
-    width: 6rem;
+    width: 7rem;
     color: #fff !important;
-    background-color: #4A4730 !important;
+    background-color: #564e1f !important;
     border-color: unset !important;
     border: unset !important;
     height: 45px !important;
     margin: 10px 14px 0 22px !important;
     font-weight: bold !important;
-    box-shadow: 0 0 0 0.25rem rgb(204, 204, 204, 0.137) !important;
+    box-shadow: 0 0 0 0.25rem rgb(12, 27, 50, 1) !important;
+}
+
+.commonHeader .btn-primary.dropdown-btn:hover {
+    background-color: #9b8a29 !important;
+}
+
+.commonHeader .btn-primary.dropdown-btn:focus {
+    background-color: #9b8a29 !important;
 }

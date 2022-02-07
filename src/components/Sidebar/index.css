@@ -21,6 +21,7 @@
 .main {
     height: 100%;
     flex-grow: 1;
+    background-color: #0c1b32;
 }
 
 .collapsed {

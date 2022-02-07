@@ -10,7 +10,7 @@ function CommonFooter() {
                     <div className="col-md-12 text-center text-md-left mb-4 mb-md-0 footerLinks">
                         <a>Contact Us</a>
                         <a>Advertise with us</a>
-                        <a>FAQ's</a>
+                        <a>Disclaimer</a>
                         <a>Privacy {"&"} Policy</a>
                         <a>Terms {"&"} Conditions</a>
                         <a className="float-end" style={{marginRight: "20px",fontSize: "18px"}}><BsFillCursorFill /></a>
